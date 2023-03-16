@@ -33,8 +33,14 @@
   <link rel="manifest" href="manifest.json">
 
   <script>
+    function setMetaThemeColor(color) {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+    }
+  </script>
+
+  <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3885361843';
+    var serviceWorkerVersion = '540555885';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js?version=1" defer></script>
